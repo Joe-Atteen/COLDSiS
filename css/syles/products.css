@@ -1,0 +1,157 @@
+/*products page*/
+.products-banner {
+  width: 100%;
+  height: 100vh;
+  background: #004545;
+  padding: 0 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-banner .left {
+  width: 30%;
+  margin: 290px 0;
+}
+
+.products-banner .right {
+  width: 45%;
+  margin: 290px 0;
+}
+
+.products-banner .right img {
+  width: 100%;
+  height: 55vh;
+}
+
+.products-banner .left button {
+  width: 140px;
+  height: 47px;
+  color: #404040;
+  background: #f4f5fd;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  border: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.products-banner .left h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  color: #f4f5fd;
+  margin-bottom: 40px;
+}
+
+.products-banner .left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #f4f5fd;
+}
+
+.products {
+  padding: 100px 120px;
+  display: grid;
+  grid-template-columns: 487px 487px 487px;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.products .sms {
+  width: 487px;
+  height: 519px;
+  background: #eaf1f1 url("/images/ayaana-background.svg") no-repeat center;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.products .sms img {
+  position: absolute;
+  right: -4%;
+  top: 40%;
+  transform: translate(4%, -40%);
+}
+
+.products .messaging {
+  width: 487px;
+  height: 519px;
+  background: #004545 url("/images/cb-background.svg") no-repeat center;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.products .messaging img {
+  position: absolute;
+  right: -4%;
+  top: 40%;
+  transform: translate(4%, -40%);
+}
+
+.Ayaana,
+.CB {
+  width: 487px;
+  position: relative;
+}
+
+.products .Ayaana h3,
+.products .CB h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #404040;
+  margin-bottom: 20px;
+  width: 487px;
+}
+
+.products .Ayaana p,
+.products .CB p {
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 0 22%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+  width: 487px;
+}
+
+.products .Ayaana .button,
+.products .CB .button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #004545;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.write-up {
+  padding: 100px 27%;
+  background: #078466;
+  color: #f4f5fd;
+}
+
+.write-up h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.write-up p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}

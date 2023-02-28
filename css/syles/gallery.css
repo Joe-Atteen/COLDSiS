@@ -1,0 +1,125 @@
+/*gallery*/
+.gallery {
+  padding: 200px 0 120px 0;
+  background: #f9f9f9;
+}
+
+.gallery h1 {
+  margin: 0 32% 40px 32%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 55px;
+  color: #000;
+}
+
+.gallery p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+  margin: 0 32% 80px 32%;
+}
+
+.gallery .row-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 100px 0;
+}
+
+.gallery .row-1 .image-1,
+.gallery .row-1 .image-3 {
+  width: 29%;
+}
+
+.gallery .row-1 .image-1 img,
+.gallery .row-1 .image-3 img {
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.gallery .row-1 .image-2 {
+  width: 40%;
+}
+
+.gallery .row-1 .image-2 img {
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.gallery .row-1 .image-2 div {
+  padding: 50px 0;
+}
+
+.gallery .row-1 .image-2 div p {
+  margin: 0 0 10px 0;
+}
+
+.gallery .row-1 .image-2 div img {
+  width: 5%;
+  margin: 0 47.5%;
+}
+
+.gallery .row-2,
+.gallery .row-3,
+.gallery .row-4,
+.gallery .row-5 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 120px;
+  margin-bottom: 30px;
+}
+
+.gallery .row-5 {
+  margin-bottom: 0;
+}
+
+.gallery .row-2 .image-4,
+.gallery .row-3 .image-9,
+.gallery .row-5 .image-15 {
+  width: 49%;
+}
+
+.gallery .row-2 .image-4 img,
+.gallery .row-3 .image-9 img,
+.gallery .row-5 .image-15 img {
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.gallery .row-2 .image-5,
+.gallery .row-2 .image-6,
+.gallery .row-3 .image-7,
+.gallery .row-3 .image-8,
+.gallery .row-5 .image-14,
+.gallery .row-5 .image-16 {
+  width: 23.35%;
+}
+
+.gallery .row-2 .image-5 img,
+.gallery .row-2 .image-6 img,
+.gallery .row-3 .image-7 img,
+.gallery .row-3 .image-8 img,
+.gallery .row-5 .image-14 img,
+.gallery .row-5 .image-16 img {
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.gallery .row-4 .image-10,
+.gallery .row-4 .image-11,
+.gallery .row-4 .image-12,
+.gallery .row-4 .image-13 {
+  width: 23.35%;
+}
+
+.gallery .row-4 .image-10 img,
+.gallery .row-4 .image-11 img,
+.gallery .row-4 .image-12 img,
+.gallery .row-4 .image-13 img {
+  width: 100%;
+  filter: brightness(70%);
+}

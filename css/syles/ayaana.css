@@ -1,0 +1,348 @@
+/*clokqyn and ayaana pages*/
+.ayaana-banner {
+  width: 100%;
+  height: 100vh;
+  background: #007bff;
+  padding: 120px 120px;
+}
+
+.ayaana-banner .text {
+  position: absolute;
+  color: #f4f5fd;
+  top: 60%;
+  transform: translate(0, -60%);
+  width: 30%;
+}
+
+.ayaana-banner .text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+
+.ayaana-banner .text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.ayaana-banner .text button {
+  padding: 8.5px 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  background: #f4f5fd;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.ayaana-banner .image {
+  position: absolute;
+  left: 91%;
+  top: 60%;
+  transform: translate(-91%, -60%);
+}
+
+.manage {
+  padding: 70px 120px;
+}
+
+.manage h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #404040;
+  margin-bottom: 20px;
+}
+
+.manage p {
+  text-align: center;
+  margin: 0 15% 60px 15%;
+}
+
+.manage .what {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage .what .component {
+  width: 283px;
+}
+
+.manage .what .component img {
+  margin-bottom: 30px;
+  padding: 0 37%;
+}
+
+.manage .what .component h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.manage .what .component p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+  margin: 0;
+}
+
+.ayaana-features {
+  padding: 50px 120px;
+  background: #f6f7f8;
+  display: flex;
+}
+
+.ayaana-features .text {
+  width: 40%;
+  margin-right: 100px;
+}
+
+.ayaana-features .text h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.ayaana-features .text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.ayaana-features .text .feature {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ayaana-features .text #feats {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.ayaana-features .text .feature img {
+  margin: 0 20px 0 0;
+}
+
+.ayaana-features .text .feature p {
+  margin: 0;
+}
+
+.ayaana-features .image {
+  position: absolute;
+  left: 90%;
+  transform: translate(-90%, 0);
+}
+
+.ayaana-features .image {
+  margin: 110px 0;
+}
+
+.security {
+  padding: 70px 120px 0 120px;
+}
+
+.security h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.security p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+  margin: 0 28% 60px 28%;
+}
+
+.security .products {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 471px 471px;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+
+.security .products .product {
+  width: 471px;
+  margin-bottom: 80px;
+}
+
+.security .products .product img {
+  margin-bottom: 30px;
+}
+
+.security .products .product h3 {
+  margin-bottom: 10px;
+}
+
+.security .products .product p {
+  margin: 0;
+  text-align: left;
+}
+
+.more-products {
+  padding: 40px 120px;
+}
+
+.more-products h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.more-products p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+  margin: 0 30% 60px 30%;
+}
+
+.more-products .mp {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.more-products .mp a {
+  text-decoration: none;
+}
+
+.more-products .mp .cb-messaging,
+.more-products .mp .cloqkyn {
+  width: 608px;
+  height: 203px;
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 10px;
+  color: #f4f5fd;
+  display: flex;
+  padding: 65.83px 36px;
+}
+
+.more-products .mp .cloqkyn {
+  background: #404040;
+}
+
+.more-products .mp .cb-messaging .text,
+.more-products .mp .pheebs .text,
+.more-products .mp .cloqkyn .text {
+  margin-top: -24px;
+}
+
+.more-products .mp .cb-messaging img,
+.more-products .mp .pheebs img,
+.more-products .mp .cloqkyn img {
+  margin-right: 40px;
+}
+
+.more-products .mp .cb-messaging .text h4,
+.more-products .mp .pheebs .text h4,
+.more-products .mp .cloqkyn .text h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.more-products .mp .cb-messaging .text p,
+.more-products .mp .pheebs .text p,
+.more-products .mp .cloqkyn .text p {
+  margin: 0;
+  color: #f4f5fd;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.more-products .mp .pheebs {
+  width: 608px;
+  height: 203px;
+  background: #f58220;
+  border-radius: 10px;
+  color: #f9f9f9;
+  display: flex;
+  padding: 65.83px 36px;
+}
+
+.more-products .mp .pheebs .text p {
+  color: #f9f9f9;
+}
+
+.apps-purpose {
+  padding: 70px 120px;
+  background: #078466;
+}
+
+.apps-purpose img {
+  width: 8%;
+  margin: 0 46% 50px 46%;
+}
+
+.apps-purpose h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #f4f5fd;
+  margin: 0 37% 60px 37%;
+}
+
+.apps-purpose .purps {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.apps-purpose .purps .vertical-line {
+  height: 112px;
+  width: 2px;
+  opacity: 0.7;
+  background: #f4f5fd;
+}
+
+.apps-purpose .purps .purpose {
+  width: 319px;
+}
+
+.apps-purpose .purps .purpose h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f4f5fd;
+  text-align: center;
+}
+
+.apps-purpose .purps .purpose p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #f4f5fd;
+  text-align: center;
+}

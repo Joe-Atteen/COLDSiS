@@ -1,0 +1,124 @@
+/*FOOTER*/
+@media screen and (max-width: 1459px) {
+  footer .links p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+  footer {
+    padding: 53px 70px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  footer {
+    padding: 53px 50px;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 499px) {
+  footer {
+    padding: 53px 10px;
+  }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1189px) {
+  footer .links .columns {
+    display: grid;
+    grid-template-columns: 180px 270px 270px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  footer .links p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1011px) and (max-width: 1079px) {
+  footer .links .columns {
+    display: grid;
+    grid-template-columns: 180px 240px 240px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  footer .links p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1010px) {
+  footer .links .columns {
+    display: grid;
+    grid-template-columns: 270px 270px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  footer .links p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 859px) {
+  footer .links {
+    display: grid;
+  }
+
+  footer .links .columns {
+    display: grid;
+    grid-template-columns: 280px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  footer .links img {
+    margin-bottom: 30px;
+  }
+
+  footer .links p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 859px) {
+  footer .links {
+    display: grid;
+  }
+
+  footer .links .columns {
+    display: grid;
+    grid-template-columns: 280px 280px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  footer .links img {
+    margin-bottom: 50px;
+  }
+
+  footer .links p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  footer .foot {
+    display: grid;
+  }
+
+  footer .foot .extra {
+    display: grid;
+    padding-top: 10px;
+  }
+
+  footer .foot .extra p {
+    margin: 20px 0;
+  }
+
+  footer .foot .extra .vertical-line {
+    display: none;
+  }
+}

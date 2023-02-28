@@ -1,0 +1,96 @@
+@media screen and (max-width: 700px) {
+  .gallery h1 {
+    margin: 0 10px 40px 10px;
+  }
+
+  .gallery p {
+    margin: 0 10px 80px 10px;
+  }
+
+  .gallery .row-1,
+  .gallery .row-2,
+  .gallery .row-3,
+  .gallery .row-4,
+  .gallery .row-5 {
+    display: grid;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 10px;
+  }
+
+  .gallery .row-1 .image-2 div {
+    display: none;
+  }
+
+  .gallery .row-1 .image-1,
+  .gallery .row-1 .image-2,
+  .gallery .row-1 .image-3,
+  .gallery .row-2 .image-4,
+  .gallery .row-2 .image-5,
+  .gallery .row-2 .image-6,
+  .gallery .row-3 .image-7,
+  .gallery .row-3 .image-8,
+  .gallery .row-3 .image-9,
+  .gallery .row-4 .image-10,
+  .gallery .row-4 .image-11,
+  .gallery .row-4 .image-12,
+  .gallery .row-4 .image-13,
+  .gallery .row-5 .image-14,
+  .gallery .row-5 .image-15,
+  .gallery .row-5 .image-16 {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .gallery h1 {
+    margin: 0 70px 40px 70px;
+  }
+
+  .gallery p {
+    margin: 0 70px 80px 70px;
+  }
+
+  .gallery .row-1,
+  .gallery .row-2,
+  .gallery .row-3,
+  .gallery .row-4,
+  .gallery .row-5 {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .gallery h1 {
+    margin: 0 120px 40px 120px;
+  }
+
+  .gallery p {
+    margin: 0 120px 80px 120px;
+  }
+
+  .gallery .row-2,
+  .gallery .row-3,
+  .gallery .row-4,
+  .gallery .row-5 {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+  .gallery h1 {
+    margin: 0 30% 40px 30%;
+  }
+
+  .gallery p {
+    margin: 0 30% 80px 30%;
+  }
+
+  .gallery .row-2,
+  .gallery .row-3,
+  .gallery .row-4,
+  .gallery .row-5 {
+    padding: 0 70px;
+  }
+}

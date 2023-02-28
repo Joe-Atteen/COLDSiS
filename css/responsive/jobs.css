@@ -1,0 +1,201 @@
+/*jobs*/
+@media screen and (max-width: 1850px) {
+  .jobs-banner .image {
+    width: 50%;
+  }
+
+  .jobs-banner .image img {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-height: 800px) {
+  .jobs-banner .text {
+    top: 60%;
+    transform: translate(0, -60%);
+    width: 40%;
+  }
+
+  .jobs-banner .image {
+    top: 60%;
+    transform: translate(-100%, -60%);
+  }
+
+  .jobs-banner .text h1 {
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .jobs-banner {
+    padding: 100px 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .jobs-banner .text {
+    width: 100%;
+    position: relative;
+    top: 25%;
+    transform: translate(0, -25%);
+    text-align: center;
+    z-index: 1;
+  }
+
+  .jobs-banner .text h1 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .jobs-banner .image {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+  }
+
+  .jobs-banner .image img {
+    width: 100%;
+  }
+
+  .how-we-work {
+    padding: 70px 10px;
+  }
+
+  .how-we-work .content {
+    display: grid;
+    padding-right: 0;
+  }
+
+  .how-we-work .content .left {
+    width: 100%;
+  }
+
+  .how-we-work .open-positions select {
+    width: 90%;
+  }
+
+  .how-we-work .open-positions #positions {
+    margin: 20px 0 40px 0;
+  }
+
+  .how-we-work .open-positions #type {
+    margin-bottom: 40px;
+  }
+
+  .how-we-work .open-positions .options {
+    display: grid;
+    width: 100%;
+  }
+
+  .how-we-work .open-positions .options .engineering,
+  .how-we-work .open-positions .options .product,
+  .how-we-work .open-positions .options .marketing {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) and (max-height: 800px) {
+  .jobs-banner {
+    height: 120vh;
+  }
+
+  .jobs-banner .image {
+    left: 50%;
+    top: 120%;
+    transform: translate(-50%, -120%);
+  }
+}
+
+@media screen and (max-width: 499px) and (max-height: 600px) {
+  .jobs-banner .text h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .jobs-banner .image {
+    left: 50%;
+    top: 145%;
+    transform: translate(-50%, -145%);
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .how-we-work {
+    padding: 70px 50px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .jobs-banner {
+    padding: 100px 50px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .jobs-banner .text {
+    width: 100%;
+    position: relative;
+    top: 20%;
+    transform: translate(0, -20%);
+    text-align: center;
+  }
+
+  .jobs-banner .image {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+  }
+
+  .jobs-banner .image img {
+    width: 100%;
+  }
+
+  .how-we-work {
+    padding: 70px 80px;
+  }
+
+  .how-we-work .content {
+    padding-right: 0;
+  }
+
+  .how-we-work .content .left {
+    width: 50%;
+  }
+
+  .how-we-work .open-positions #type {
+    margin-bottom: 40px;
+  }
+
+  .how-we-work .open-positions .options {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+  .jobs-banner {
+    padding: 100px 70px;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1260px) {
+  .how-we-work {
+    padding: 70px 100px;
+  }
+
+  .how-we-work .content {
+    padding-right: 75px;
+  }
+
+  .how-we-work .open-positions #positions {
+    margin: 20px 30px 40px 0;
+  }
+}

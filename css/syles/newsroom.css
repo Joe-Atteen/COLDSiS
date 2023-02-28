@@ -1,0 +1,170 @@
+/*newsroom*/
+.news-banner {
+  padding: 100px 120px;
+  width: 100%;
+  height: 100vh;
+  background: #f9f9f9;
+}
+
+.news-banner .text {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.news-banner .text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  color: #404040;
+  margin-bottom: 40px;
+}
+
+.news-banner .text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+}
+
+.news-banner .image {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-90%, -50%);
+}
+
+.news {
+  padding: 100px 0;
+  margin: 0 120px;
+}
+
+.news .nav div {
+  height: 59px;
+  border-radius: 3px;
+  padding: 7px 35px;
+  display: flex;
+  align-items: center;
+}
+
+.news .nav p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 13px 0;
+  color: #728095;
+  cursor: pointer;
+}
+
+.news .nav p:nth-child(2) {
+  margin: 0 40px;
+}
+
+.news .nav p:nth-child(3) {
+  margin-right: 40px;
+}
+
+.news .hor-line {
+  width: 100%;
+  height: 2px;
+  background: rgba(114, 128, 149, 0.2);
+  margin-bottom: 55px;
+}
+
+.news .hor-line .slider {
+  width: 110px;
+  height: 2px;
+  background: #f58220;
+  position: absolute;
+  transition: all 0.2s linear;
+}
+
+.news .latest {
+  display: grid;
+  grid-template-columns: 477px 477px 477px;
+  gap: 80px;
+  justify-content: space-between;
+}
+
+.news .latest .content {
+  width: 477px;
+}
+
+.news .latest .content .img-placeholder {
+  width: 477px;
+  height: 308px;
+  background: #181818;
+  filter: brightness(80%);
+  border-radius: 10px;
+}
+
+.news .latest .content .img-placeholder img {
+  width: 477px;
+  height: 308px;
+  border-radius: 10px;
+}
+
+.news .latest .content .caption {
+  background: #f58220;
+  border-radius: 20px;
+  width: 120px;
+  margin: 27px 0;
+}
+
+.news .latest .content .caption p {
+  color: #f3f3f3;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px 20px;
+}
+
+.news .latest .content h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #181818;
+}
+
+.news .latest .content .author {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.news .latest .content .author img {
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.news .latest .content .author p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #181818;
+}
+
+.news .latest .content .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+  opacity: 0.8;
+  width: 85%;
+}
+
+.news .latest .content button {
+  margin: 10px 0;
+  color: #f58220;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.news .latest .content button img {
+  margin-left: 10px;
+}
